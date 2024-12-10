@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(255, 255, 255, 0)), 
+                url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.container-netflix {
+    
+}
+
+/* TOPO */
+
+.topo {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.topo img {
+    width: 50px;
+}
+
+.topo p {
+    margin-left: 15px;
+    color: grey;
+}
+
+.topo i {
+    margin-left: 25px;
+}
+
+/* MEIO CONTEUDO */
+
+.meio-conteudo h3 {
+    color: rgb(203, 199, 199);
+    margin-inline: 15px;
+    margin-top: 35px;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+/* TOP DEZ */
+
+.topdez {
+    display: flex;
+    align-items: center;
+    color:rgb(203, 199, 199) ;
+    gap: 10px;
+    position: relative;
+    bottom: 25px;
+    margin-inline: 15px;
+}
+
+.topdez img {
+    width: 30px;
+    border-radius: 3px;
+}
+
+.topdez .hd {
+    border: 1px solid rgb(203, 199, 199) ;
+    padding: 0px 3px 0px 3px;
+    border-radius: 4px;
+}
+
+.topdez h4 {
+    font-size: 15px;
+}
+
+.topdez .novembro {
+    font-weight: 500;
+}
+
+/* DESCRIÇÃO */
+
+.descricao {
+    color:rgb(203, 199, 199);
+    margin: 15px;
+    position: relative;
+    bottom: 45px;
+}
+
+.descricao p {
+    font-weight: 400;
+}
+
+/* BOTÕES */
+
+.botoes {
+    margin: 15px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+    bottom: 35px;
+}
+
+.assistir {
+    background-color: white;
+    width: 30%;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.assistir span {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.info {
+    background-color: rgb(108, 108, 108);
+    width: 65%;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.info span {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 6px;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* MELHORES MOMENTOS */
+
+.melhor-moment {
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.fotos-mm {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    gap: 15px;
+}
+
+.fotos-mm img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+}
