@@ -182,4 +182,11 @@ a {
     }
 }
 
+@media (max-width: 360px) {
+    .fotos-mm img {
+        width: 94px !important;
+    }
+}
+
+
 
