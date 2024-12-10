@@ -163,3 +163,23 @@ a {
     height: 140px;
     object-fit: cover;
 }
+
+@media (max-width: 390px) {
+    .fotos-mm img {
+        width: 104px !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .fotos-mm img {
+        width: 112px;
+    }
+}
+
+@media (max-width: 375px) {
+    .fotos-mm img {
+        width: 99px !important;
+    }
+}
+
+
