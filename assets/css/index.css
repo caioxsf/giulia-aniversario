@@ -170,9 +170,9 @@ a {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 440px) {
     .fotos-mm img {
-        width: 112px;
+        width: 117px;
     }
 }
 
